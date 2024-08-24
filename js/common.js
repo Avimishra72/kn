@@ -1,14 +1,14 @@
 // page scroll to top on refresh
 // =======================================================
 
-window.addEventListener("beforeunload", function () {
-  document.body.style.display = "none";
-  window.scrollTo(0, 0);
-});
+// window.addEventListener("beforeunload", function () {
+//   document.body.style.display = "none";
+//   window.scrollTo(0, 0);
+// });
 
-window.addEventListener("load", function () {
-  document.body.style.display = "block";
-});
+// window.addEventListener("load", function () {
+//   document.body.style.display = "block";
+// });
 
 /*================================= Sticky Header Starts =================================*/
 

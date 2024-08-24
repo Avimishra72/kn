@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?49g77y');
-  src:  url('fonts/icomoon.eot?49g77y#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?49g77y') format('truetype'),
-    url('fonts/icomoon.woff?49g77y') format('woff'),
-    url('fonts/icomoon.svg?49g77y#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?5q8gc4');
+  src:  url('fonts/icomoon.eot?5q8gc4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?5q8gc4') format('truetype'),
+    url('fonts/icomoon.woff?5q8gc4') format('woff'),
+    url('fonts/icomoon.svg?5q8gc4#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,48 +25,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Globe:before {
-  content: "\e900";
-}
-.icon-integration:before {
-  content: "\e901";
-}
-.icon-linkedin:before {
-  content: "\e902";
-}
-.icon-logging:before {
+.icon-carret-left:before {
   content: "\e903";
 }
-.icon-management:before {
+.icon-carret-right:before {
   content: "\e904";
 }
-.icon-market:before {
-  content: "\e905";
+.icon-instagram:before {
+  content: "\e900";
 }
-.icon-marketing:before {
-  content: "\e906";
+.icon-linkedin:before {
+  content: "\e901";
 }
-.icon-medical:before {
-  content: "\e907";
-}
-.icon-sales:before {
-  content: "\e908";
-}
-.icon-security:before {
-  content: "\e909";
-}
-.icon-twitter:before {
-  content: "\e90a";
-}
-.icon-access:before {
-  content: "\e90b";
-}
-.icon-ask:before {
-  content: "\e90c";
+.icon-arrow-right:before {
+  content: "\e902";
 }
 .icon-facebook:before {
-  content: "\e90d";
-}
-.icon-footer-ask:before {
-  content: "\e90e";
+  content: "\e905";
 }
