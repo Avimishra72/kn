@@ -17,12 +17,6 @@ function fixedHeader() {
     scroll = $(window).scrollTop();
   if (scroll >= 10) sticky.addClass("fixHeader");
   else sticky.removeClass("fixHeader");
-
-  if (scroll >= 10) {
-    sticky.removeClass("transparent-header");
-  } else if (scroll <= 0) {
-    sticky.addClass("transparent-header");
-  }
 }
 
 $(window).scroll(function (e) {

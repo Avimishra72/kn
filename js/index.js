@@ -1,3 +1,14 @@
+$(window).scroll(function (e) {
+  var sticky = $("#header");
+  var scroll = $(window).scrollTop();
+
+  if (scroll >= 10) {
+    sticky.removeClass("transparent-header");
+  } else if (scroll <= 0) {
+    sticky.addClass("transparent-header");
+  }
+});
+
 /* counter script starts */
 $(".counter-value").each(function () {
   var $this = $(this),
@@ -25,12 +36,17 @@ $(".counter-value").each(function () {
 /* Brand Swiper Starts */
 var brandSwiper = new Swiper(".brandSwiper", {
   slidesPerView: "auto",
-  spaceBetween: 100,
+  spaceBetween: 30,
   speed: 9000,
   loop: true,
   autoplay: {
     delay: 0,
     disableOnInteraction: false,
+  },
+  breakpoints: {
+    641: {
+      spaceBetween: 100,
+    },
   },
 });
 /* Brand Swiper Ends */
@@ -82,3 +98,26 @@ let revealLines = revealText.forEach((element) => {
   });
 });
 /* Reveal Text Animation Ends */
+
+/* Business Swiper Starts */
+
+var businessImgSwiper = new Swiper(".businessImgSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 80,
+  speed: 600,
+  navigation: {
+    nextEl: ".business-next",
+    prevEl: ".business-prev",
+  },
+});
+
+var businessInfoSwiper = new Swiper(".businessInfoSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  speed: 600,
+});
+
+businessImgSwiper.controller.control = businessInfoSwiper;
+businessInfoSwiper.controller.control = businessImgSwiper;
+
+/* Business Swiper Ends */

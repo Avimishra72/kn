@@ -1,4 +1,4 @@
-if ($(window).outerWidth() < 990) {
+if ($(window).outerWidth() < 991) {
   this.MobileNav = function () {
     this.curItem,
       (this.curLevel = 0),
@@ -123,8 +123,8 @@ $(document).on("click", ".js-nav-toggle", function (e) {
   $(".menu").toggleClass("show-menu");
   $(".nav-wrapper").toggleClass("show-menu");
   let rt = window.innerWidth;
-  let menuBtnX = $(".js-nav-toggle").offset().left
+  let menuBtnX = $(".js-nav-toggle").offset().left;
   console.log(rt, menuBtnX);
-  $(".js-nav-toggle").css("right", 0)   
-  $(".show-menu .js-nav-toggle").css("right", -(rt - menuBtnX - 70))
+  $(".js-nav-toggle").css("right", 0);
+  $(".show-menu .js-nav-toggle").css("right", -(rt - menuBtnX - 70));
 });
