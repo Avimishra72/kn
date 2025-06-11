@@ -1,6 +1,7 @@
 :root {
   --header-height: 80px;
   --header-scroll-height: 70px;
+  --comm-space: 90px;
 }
 
 html,
@@ -317,7 +318,7 @@ body {
 
   &:hover {
     &::after {
-      top: 0;
+      top: 3px;
       color: #000;
       transform: rotate(0deg);
     }
@@ -743,19 +744,20 @@ body {
   margin: 0 auto;
 
   p {
-    color: #000;
-    font-size: calc(var(--font42) + 2px);
-    font-weight: 500;
+    color: #727070;
+    font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 50px;
+    margin-bottom: 0;
+    max-width: 530px;
+    margin-left: auto;
 
-    &:last-child {
-      color: #727070;
-      font-size: 16px;
+    &:first-child {
+      color: #000;
+      font-size: calc(var(--font42) + 2px);
+      font-weight: 500;
       line-height: 1.5;
-      margin-bottom: 0;
-      max-width: 530px;
-      margin-left: auto;
+      max-width: 100%;
+      margin: 0 0 50px 0;
     }
   }
 }
