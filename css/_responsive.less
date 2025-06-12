@@ -89,12 +89,16 @@
   }
 
   .comm-service-para p {
-    margin-bottom: 30px;
+    margin: 30px 0 0 auto;
   }
 
   .fix-img {
     width: 100%;
     height: 310px;
+  }
+
+  .fix-info p {
+    margin-bottom: 18px;
   }
 
   .trm-img {
@@ -125,6 +129,16 @@
 
   .product-img {
     height: 40px;
+  }
+
+  .tb-info {
+    padding: 20px 22px;
+    transform: translateY(0px);
+  }
+
+  .tb-info p,
+  .tb-info a {
+    opacity: 1;
   }
 }
 
@@ -221,6 +235,65 @@
   .faq-right {
     max-width: 100%;
   }
+
+  .buy-box {
+    padding: 40px 30px 20px;
+  }
+
+  .buy-img {
+    max-width: 170px;
+  }
+
+  .sleepy-box {
+    border-radius: 20px;
+  }
+
+  .comm-service-wrap:nth-child(even),
+  .comm-service-wrap {
+    margin: 0 auto 80px;
+    flex-direction: column;
+  }
+
+  .sleepy-container {
+    margin: 0 auto 60px;
+  }
+
+  .sleepy-section .container .comm-nav-wrap {
+    justify-content: center;
+    position: static;
+    gap: 20px;
+  }
+
+  .fix-wrap {
+    flex-direction: column;
+  }
+
+  .fix-info {
+    max-width: 100%;
+  }
+
+  .service-info {
+    padding: 20px 24px;
+  }
+
+  .redefine-box {
+    border-radius: 14px;
+    padding: 28px 22px;
+  }
+
+  .redefine-box p::before {
+    width: 18px;
+    height: 18px;
+    top: 1px;
+  }
+
+  .redefine-box p {
+    padding-left: 26px;
+  }
+
+  .trm-img {
+    height: auto;
+  }
 }
 
 @media all and (max-width: 768px) {
@@ -250,6 +323,16 @@
   .brand-hdn {
     margin-bottom: 30px;
   }
+
+  .comm-service-img {
+    max-width: 460px;
+    width: 100%;
+    height: auto;
+  }
+
+  .service-img {
+    height: auto;
+  }
 }
 
 @media all and (max-width: 640px) {
@@ -265,11 +348,6 @@
 
   .sec-hdn.center {
     margin: 0 auto 38px;
-  }
-
-  .comm-nav {
-    width: 50px;
-    height: 50px;
   }
 
   .rating-img {
@@ -311,6 +389,56 @@
     width: 40px;
     height: 40px;
   }
+
+  .sleepySwiper2 {
+    display: none;
+  }
+
+  .sleepy-box {
+    border-radius: 14px;
+  }
+
+  .choose-bg {
+    width: 150px;
+  }
+
+  .popup-fix::after {
+    width: 44px;
+    height: 44px;
+  }
+
+  .fix-wrap {
+    gap: 30px;
+  }
+
+  .comm-service-para p:first-child {
+    font-size: 20px;
+  }
+
+  .fit-solution-para p {
+    font-size: 20px;
+  }
+
+  .redefine-wrap .f-row {
+    row-gap: 15px;
+  }
+
+  .service-info {
+    padding: 20px 16px;
+  }
+
+  .service-hdn {
+    margin-bottom: 16px;
+  }
+
+  .service-info ul li {
+    margin-bottom: 14px;
+    padding-left: 16px;
+  }
+
+  .redefine-box {
+    padding: 24px 16px;
+  }
 }
 
 @media all and (max-width: 576px) {
@@ -325,6 +453,11 @@
 }
 
 @media all and (max-width: 480px) {
+  .buy-box {
+    padding: 20px;
+    border-radius: 14px;
+    gap: 18px;
+  }
 }
 
 @media all and (max-width: 400px) {

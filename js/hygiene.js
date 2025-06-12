@@ -48,7 +48,7 @@ const trmSwiper = new Swiper(".trmSwiper", {
     },
     991: {
       slidesPerView: 2.4,
-      spaceBetween: 24,
+      spaceBetween: 20,
     },
     1201: {
       slidesPerView: 3,
