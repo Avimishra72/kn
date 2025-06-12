@@ -597,6 +597,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 24px;
+  display: none;
 }
 
 .faq-left {
@@ -936,13 +937,13 @@ body {
       line-height: 1.4;
       padding-left: 14px;
       position: relative;
-      border-radius: 100%;
-      overflow: hidden;
 
       &::before {
         content: "";
         width: 7px;
         height: 7px;
+        border-radius: 100%;
+        overflow: hidden;
         background: #3d9dcd;
         position: absolute;
         top: 50%;
