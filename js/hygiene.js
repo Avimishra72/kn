@@ -42,6 +42,10 @@ const trmSwiper = new Swiper(".trmSwiper", {
     prevEl: ".trm-prev",
   },
   breakpoints: {
+    641: {
+      slidesPerView: 1.8,
+      spaceBetween: 20,
+    },
     769: {
       slidesPerView: 2.2,
       spaceBetween: 20,

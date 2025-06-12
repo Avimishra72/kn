@@ -333,6 +333,51 @@
   .service-img {
     height: auto;
   }
+
+  .tb-info {
+    padding: 20px 16px;
+  }
+
+  .tb-hdn {
+    margin-bottom: 16px;
+  }
+
+  .trm-tab-box {
+    overflow: hidden;
+    overflow-x: auto;
+    padding-bottom: 8px;
+
+    &::-webkit-scrollbar {
+      height: 3px;
+      border-radius: 4px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #fff;
+      border-radius: 4px;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: #000;
+      border-radius: 4px;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: #000;
+    }
+  }
+
+  .cfm-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cfm-info {
+    max-width: 100%;
+  }
 }
 
 @media all and (max-width: 640px) {
@@ -439,6 +484,11 @@
   .redefine-box {
     padding: 24px 16px;
   }
+
+  .comm-service-para p {
+    margin: 20px 0 0 auto;
+    max-width: 100%;
+  }
 }
 
 @media all and (max-width: 576px) {
@@ -450,6 +500,32 @@
   .panel {
     padding: 0 14px 20px;
   }
+
+  .fix-img {
+    height: auto;
+  }
+
+  .trm-swiper .comm-nav-wrap {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .cfm-detail-box {
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+  }
+
+  .cfm-para p {
+    margin-bottom: 40px;
+  }
+
+  .trm-img {
+    height: 220px;
+  }
+
+  .hygiene-brand-section .brand-img {
+    height: 50px;
+  }
 }
 
 @media all and (max-width: 480px) {
@@ -457,6 +533,10 @@
     padding: 20px;
     border-radius: 14px;
     gap: 18px;
+  }
+
+  .cfm-img {
+    width: 100%;
   }
 }
 
