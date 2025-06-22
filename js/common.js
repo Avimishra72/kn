@@ -85,11 +85,11 @@ $(document).on("click", ".view-pass", function () {
 });
 /* // Password View */
 
-// if (AOS) {
-//   AOS.init({
-//     duration: 1000,
-//   });
-// }
+if (AOS) {
+  AOS.init({
+    duration: 1000,
+  });
+}
 
 /* // Initialize Lenis */
 const lenis = new Lenis();

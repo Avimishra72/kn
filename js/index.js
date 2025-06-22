@@ -20,7 +20,7 @@ $(".counter-value").each(function () {
       countNum: countTo,
     },
     {
-      duration: 1200,
+      duration: 3500,
       easing: "swing",
       step: function () {
         $this.text(Math.floor(this.countNum));
