@@ -1,7 +1,7 @@
 /* Brand Swiper Starts */
 var brandSwiper = new Swiper(".brandSwiper", {
   slidesPerView: "auto",
-  spaceBetween: 20,
+  spaceBetween: 8,
   speed: 9000,
   loop: true,
   autoplay: {
