@@ -436,11 +436,17 @@ body {
   cursor: pointer;
 
   .flex();
+  .anim();
 
   i {
     font-size: 18px;
     color: #000;
   }
+}
+
+.swiper-button-disabled {
+  opacity: 0.6;
+  pointer-events: none;
 }
 
 .business-wrap {
@@ -897,6 +903,27 @@ body {
 
 .popup-sleepy {
   margin-bottom: 26px;
+}
+
+.sleepy-popup {
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 54px;
+    height: 54px;
+    background: url(../img/play-btn.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(23, 23, 23, 0.2);
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    .flex();
+  }
 }
 
 .sleepySwiper2 {
