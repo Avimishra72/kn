@@ -2,7 +2,7 @@
 
 const sleepySwiper2 = new Swiper(".sleepySwiper2", {
   spaceBetween: 30,
-  slidesPerView: 4,
+  slidesPerView: 5,
   freeMode: true,
   watchSlidesProgress: true,
 });
